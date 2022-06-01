@@ -1,0 +1,22 @@
+.free-trial-button {
+  background-color: hsl(154, 59%, 51%);
+  width: 100%;
+  height: 3.5rem;
+  margin-top: 5%;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 6px 5px hsl(249, 10%, 26%);
+  color: white;
+  font-weight: 600;
+  font-size: 1.1em;
+}
+
+.free-trial-button:hover {
+  cursor: pointer;
+  opacity: 80%;
+}
+
+.free-trial-button:active {
+  transform: translateY(4px);
+  opacity: 100%;
+}

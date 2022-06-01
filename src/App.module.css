@@ -1,0 +1,35 @@
+body {
+    background-image: url('./images/bg-intro-mobile.png');
+    background-color: hsl(0, 100%, 74%);
+    margin: min(20px, 5%);
+    text-align: center;
+}
+
+.wrapper {
+    width: 100%;
+}
+
+@media (min-width: 650px) {
+    .wrapper {
+        display: flex;
+        gap: 5%;
+        align-items: center;
+        /* padding: 0 5%; */
+    }
+    .intro-text {
+        width: 50%;
+        text-align: left;
+        margin-left: 5%;
+    }
+    .form {
+        width: 50%;
+        margin-right: 5%;
+    }
+    body {
+        height: 100vh;
+        margin: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}

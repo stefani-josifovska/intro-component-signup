@@ -1,0 +1,28 @@
+.wrap {
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 6px 5px hsl(249, 10%, 26%);
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 10%;
+}
+
+h6 {
+    font-weight: 400;
+    color: hsl(246, 25%, 77%);
+}
+
+a {
+    color: hsl(0, 100%, 74%);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+@media (min-width: 650px) {
+    .wrap {
+        margin-top: min(5%, 15px);
+    }
+}
